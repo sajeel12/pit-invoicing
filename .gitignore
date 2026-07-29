@@ -1,0 +1,27 @@
+# dependencies
+/node_modules
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# misc
+.DS_Store
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+# env — secrets (FBR token lives here)
+.env.local
+.env*.local
+
+# local invoice log (contains real invoice data)
+/data/invoices.json
+/data/invoices.json.migrated
+/data/invoices.db
+/data/invoices.db-wal
+/data/invoices.db-shm
